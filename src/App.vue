@@ -1,6 +1,6 @@
 <template lang="pug">
   #app
-    img(src='./assets/logo.png')
+    // img(src='dist/logo.png')
     h1 MyMusic
     select(v-model="selectedCountry")
       option(v-for="country in countries" v-bind:value="country.value") {{country.name}}
@@ -65,13 +65,17 @@ export default {
   text-align center
   color #2c3e50
   margin-top 60px
+  
 
 h1, h2
   font-weight normal
 
 ul
+  display grid
   list-style-type none
   padding 0
+  grid-template-columns repeat(auto-fill, minmax(200px, 1fr))
+
 
 li
   display inline-block
