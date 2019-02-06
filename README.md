@@ -1,18 +1,19 @@
-# mymusic
+# Top artists de países
 
-> Plataforma de musica
+Lista de los artistas top de ciertos países hecha con Vue.js
 
-## Build Setup
+![Captura de la App](./.readme-static/captura.png)
 
-``` bash
-# install dependencies
-npm install
+[Ver la aplicación](https://esdraspavon.github.io/mymusic)
 
-# serve with hot reload at localhost:8080
-npm run dev
+## ¿Cómo funciona?
 
-# build for production with minification
-npm run build
-```
+Requiere Node.JS 10
 
-For detailed explanation on how things work, consult the [docs for vue-loader](http://vuejs.github.io/vue-loader).
+* `npm install` para instalar las dependencias.
+* `npm run dev` para el entorno de desarrollo.
+* `npm run build` para el entorno de producción.
+
+## Licencia 
+
+MIT
