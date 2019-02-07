@@ -2,7 +2,7 @@
 
 Lista de los artistas top de ciertos países hecha con Vue.js
 
-![Captura de la App](./.readme-static/captura.png)
+![Captura de la App](./.readme-static/mymusic.png)
 
 [Ver la aplicación](https://esdraspavon.github.io/mymusic)
 
